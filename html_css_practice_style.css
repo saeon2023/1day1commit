@@ -1,0 +1,21 @@
+h1 {
+    font-size: 35px;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid #383f46;
+    margin: 20px;
+ }
+ #grid {
+    display: grid;
+    border: 2px soild black; 
+    grid-template-columns: 230px 1fr;
+}
+#index { 
+    margin: 15px;
+    padding: 5px;
+}
+img { 
+    display: block;
+    margin: auto; 
+    width: 80%;
+}
