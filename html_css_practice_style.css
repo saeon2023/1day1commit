@@ -1,19 +1,40 @@
+body {
+    margin: 0;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
 h1 {
-    font-size: 35px;
+    font-size: 40px;
     text-align: center;
-    padding: 10px;
-    border: 2px solid #383f46;
-    margin: 20px;
+    padding: 30px;
+    border-bottom: 2px solid #383f46;
+    margin: 0px;
+    background-color: aqua;
+ }
+ ol {
+    border-right: 2px solid #383f46;
+    margin: 0px;
+    padding: 25px
  }
  #grid {
     display: grid;
-    border: 2px soild black; 
     grid-template-columns: 230px 1fr;
 }
 #index { 
-    margin: 15px;
-    padding: 5px;
+    margin: 0px;
+    padding: 0px;
 }
+h2 {
+    font-size: 30px;
+    margin: 10px
+}
+#summery {
+    padding: 10px;
+    border-left: 2px soild black;
+}
+
 img { 
     display: block;
     margin: auto; 
