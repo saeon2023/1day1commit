@@ -13,10 +13,14 @@ h1 {
     margin: 0px;
     background-color: aqua;
  }
+
  ol {
     border-right: 2px solid #383f46;
     margin: 0px;
     padding: 25px
+ }
+ li {
+    margin: 10px;
  }
  #grid {
     display: grid;
@@ -33,6 +37,10 @@ h2 {
 #summery {
     padding: 10px;
     border-left: 2px soild black;
+}
+
+#article {
+    background-color: aqua;
 }
 
 img { 
